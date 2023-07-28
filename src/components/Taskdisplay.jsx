@@ -18,7 +18,8 @@ export const Taskdisplay = ({ taskList, setTaskList }) => {
   };
 
   return (
-    <div>
+    <>
+    <div>   
       <table>
         <tr>
           <th>Full Name</th>
@@ -53,5 +54,6 @@ export const Taskdisplay = ({ taskList, setTaskList }) => {
         ))}
       </table>
     </div>
+    </>
   );
 };
